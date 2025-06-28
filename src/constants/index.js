@@ -16,6 +16,7 @@ import {
   express,
   aws,
   mui,
+  postgres,
   
   gsap,
   framer,
@@ -32,6 +33,9 @@ import {
   firstTestimonial,
   secondTestimonial,
   thirdTestimonial,
+  python,
+  tableue,
+  numpy,
 } from '../assets'
 
 
@@ -59,31 +63,35 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Full-Stack Developer",
+    title: "Data analysis & visualizatiion ",
     icon: web,
   },
   {
-    title: "Frontend Developer",
+    title: "Programming and scripting",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Database-management",
     icon: backend,
   },
   {
-    title: "Ui UX Designer",
+    title: "Statical-Analysis",
+    icon: creator,
+  },
+  {
+    title: "Automation and ETL",
     icon: creator,
   },
 ];
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
+    name: "Python",
+    icon: python,
   },
   {
-    name: "CSS 3",
-    icon: css,
+    name: "tablue",
+    icon: numpy,
   },
   {
     name: "JavaScript",
@@ -145,8 +153,8 @@ const technologies = [
   },
 
   {
-    name: "git",
-    icon: git,
+    name: "PostGreSQL",
+    icon: postgres,
   },
  
 
@@ -154,16 +162,16 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Full-Stack Developer",
+    title: "Data-Analyst",
     company_name: "Tekisky",
     icon: tekisky,
     iconBg: "#383E56",
-    date: "Jan 2023 - present",
+    date: "Oct-2024 - present",
     points: [
-      "Developing and maintaining web applications using MERN technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      " Sales Performance Dashboard (Power BI & SQL) Link.",
+      "Developed Power BI dashboard analyzing sales trends and costumes behavior.Utilized SQL queries to exact, clean and manipulate large datasets from a retail database.",
+      "Built a predictive model using Logistics regression to identify customers likely to churn.",
+      "Cleaned, structured, and transformed raw datasets using Excel formulas, Power Query, and SQL functions.",
     ],
   },
 ];

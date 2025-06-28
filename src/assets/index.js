@@ -24,11 +24,17 @@ import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
+import postgres from './tech/postgresql.png'
 import tailwind from "./tech/tailwind.png";
 import threejs from "./tech/threejs.svg";
 import firstTestimonial from './Tars Ken.webp';
 import secondTestimonial from './image.webp';
 import thirdTestimonial from './third testimonial.webp'
+import powerbi from './tech/power-bi.png';
+import tableue from './tech/tableue.webp';
+import seaborn from './tech/seaborn.png';
+import numpy from './tech/numpy.png';
+import python from './tech/python.png';
 
 export {
   logo,
@@ -62,5 +68,12 @@ export {
   redux,
   tailwind,
   threejs,
+  postgres,
+  python,
+  seaborn,
+  powerbi,
+  numpy,
+  tableue
+
 
 };
