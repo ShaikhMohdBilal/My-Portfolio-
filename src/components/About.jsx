@@ -37,7 +37,7 @@ const ServiceCard = ({ index, title, icon }) => {
   );
 
   return (
-    <Tilt className="xs:w-[220px] w-full">
+    <Tilt className="xs:w-[250px] w-full">
       <div
         ref={cardRef}
         className="w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card"
@@ -88,14 +88,15 @@ const About = () => {
         ref={paragraphRef}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a skilled data analyst with experience in SQL, Python, and data
-        visualization tools like Tableau and Power BI. I'm a quick learner and
-        collaborate closely with stakeholders to deliver clear, actionable
-        insights through clean, scalable, and user-friendly dashboards and
-        reports. Let's turn your data into decisions!
+        I'm a skilled software developer with experience in JavaScript, and
+        expertise in frameworks like React, Node.js, and Three.js. I'm a quick
+        learner and collaborate closely with clients to create efficient,
+        scalable, and user-friendly solutions that solve real-world problems.
+        Let's work together to bring your ideas to life! web-development
+        Full-Stack Developer
       </p>
 
-      <div className="mt-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 justify-items-center gap-10">
+      <div className="mt-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-items-center gap-10">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}

@@ -1,4 +1,3 @@
-
 import {
   logo,
   backend,
@@ -17,7 +16,6 @@ import {
   aws,
   mui,
   postgres,
-  
   gsap,
   framer,
   figma,
@@ -36,20 +34,15 @@ import {
   python,
   tableue,
   numpy,
-} from '../assets'
-
+} from "../assets";
 
 // Import Tekisky separately
 import tekisky from "../assets/company/tekisky.png";
 
-
 export const navLinks = [
-
-
   {
     id: "about",
     title: "About",
-    
   },
   {
     id: "work",
@@ -63,35 +56,31 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Data analysis & visualizatiion ",
+    title: "Front-end Developer ",
     icon: web,
   },
   {
-    title: "Programming and scripting",
+    title: "Back-end Developer",
     icon: mobile,
   },
   {
-    title: "Database-management",
+    title: "Full-stack Developer",
     icon: backend,
   },
   {
-    title: "Statical-Analysis",
-    icon: creator,
-  },
-  {
-    title: "Automation and ETL",
+    title: "Ui & Ux Designer",
     icon: creator,
   },
 ];
 
 const technologies = [
   {
-    name: "Python",
-    icon: python,
+    name: "Html",
+    icon: html,
   },
   {
-    name: "tablue",
-    icon: numpy,
+    name: "css",
+    icon: css,
   },
   {
     name: "JavaScript",
@@ -110,7 +99,6 @@ const technologies = [
     icon: framer,
   },
 
- 
   {
     name: "Three JS",
     icon: threejs,
@@ -156,8 +144,6 @@ const technologies = [
     name: "PostGreSQL",
     icon: postgres,
   },
- 
-
 ];
 
 const experiences = [
@@ -166,12 +152,12 @@ const experiences = [
     company_name: "Tekisky",
     icon: tekisky,
     iconBg: "#383E56",
-    date: "Oct-2024 - present",
+    date: "Jan-2024 - present",
     points: [
-      " Sales Performance Dashboard (Power BI & SQL) Link.",
-      "Developed Power BI dashboard analyzing sales trends and costumes behavior.Utilized SQL queries to exact, clean and manipulate large datasets from a retail database.",
-      "Built a predictive model using Logistics regression to identify customers likely to churn.",
-      "Cleaned, structured, and transformed raw datasets using Excel formulas, Power Query, and SQL functions.",
+      " Developing and maintaining web applications using MERN technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
 ];
@@ -225,7 +211,6 @@ const projects = [
         name: "mongodb",
         color: "green-text-gradient",
       },
- 
     ],
     image: project2,
     source_code_link: "https://github.com/",
