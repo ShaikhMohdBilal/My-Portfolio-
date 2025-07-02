@@ -214,6 +214,7 @@ const projects = [
     ],
     image: project2,
     source_code_link: "https://github.com/",
+    projectLink :"https://tekiskymart.com/",
   },
   {
     name: "GearXpert",
@@ -235,11 +236,12 @@ const projects = [
     ],
     image: gearXpert,
     source_code_link: "https://github.com/",
+    projectLink :"https://speedlineautoparts.netlify.app/",
   },
   {
-    name: "GoGroove-Ecommerce",
+    name: "Sunshine Export Assam",
     description:
-      "Go-Groove is your ultimate destination for premium products across various categories. Whether you're a savvy shopper or a professional, enhance, and simplify your lifestyle—all in one place!",
+      "Sunshine Export Assam  is your ultimate destination for premium quality harbs, variety of teas's and spices. Whether you're a savvy shopper or a professional, enhance, and simplify your test in one place!",
     tags: [
       {
         name: "react",
@@ -260,6 +262,7 @@ const projects = [
     ],
     image: project3,
     source_code_link: "https://github.com/",
+    projectLink: "https://sunshineexportassam.com/"
   },
 ];
 

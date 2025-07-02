@@ -7,6 +7,7 @@ import { styles } from "../styles";
 import { github } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
+import { useNavigate } from "react-router-dom";
 
 // Register ScrollTrigger plugin
 gsap.registerPlugin(ScrollTrigger);
@@ -18,8 +19,10 @@ const ProjectCard = ({
   tags,
   image,
   source_code_link,
+  projectLink
 }) => {
   const cardRef = useRef(null);
+
 
   useEffect(() => {
     const el = cardRef.current;
@@ -55,7 +58,8 @@ const ProjectCard = ({
         }}
         className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
       >
-        <div className="relative w-full h-[230px]">
+   <a href={projectLink} target="blank">
+         <div className="relative w-full h-[230px]">
           <img
             src={image}
             alt="project_image"
@@ -75,6 +79,7 @@ const ProjectCard = ({
             </div>
           </div>
         </div>
+   </a>
 
         <div className="mt-5">
           <h3 className="text-white font-bold text-[24px]">{name}</h3>
