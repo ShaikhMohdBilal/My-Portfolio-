@@ -148,7 +148,7 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Data-Analyst",
+    title: "Full-Stack Developer",
     company_name: "Tekisky",
     icon: tekisky,
     iconBg: "#383E56",
